@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  color: var(--text-primary-color);
+  position: relative;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+:root {
+  --primary-color: #d3bcf1;
+  --secondary-color: #e3d7f3;
+
+  --background-color: #eaeaea;
+
+  --text-primary-color: #222;
+
+  --highlight-color: #b681fa;
+}

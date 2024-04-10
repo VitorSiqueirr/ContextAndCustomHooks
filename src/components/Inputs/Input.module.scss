@@ -1,0 +1,12 @@
+.input {
+  margin-left: 12px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 4px;
+  outline: none;
+
+  &:active,
+  &:focus {
+    border: 2px solid var(--highlight-color);
+  }
+}

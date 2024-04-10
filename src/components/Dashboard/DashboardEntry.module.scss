@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightRow {
+  align-items: center;
+  display: flex;
+}
+
+.buttonContainer {
+  margin-left: 20px;
+}
+
+@mixin button {
+  padding: 10px;
+  background-color: var(--background-color);
+}
+
+.editButton {
+  @include button();
+}
+
+.deleteButton {
+  margin-left: 10px;
+  @include button();
+}

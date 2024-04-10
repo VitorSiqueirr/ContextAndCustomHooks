@@ -1,0 +1,21 @@
+.form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+}
+
+.title {
+  text-align: center;
+}
+
+.field {
+  margin-top: 20px;
+}
+
+.saveButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

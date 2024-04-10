@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  padding: 20px;
+  background-color: var(--primary-color);
+}
+
+.title {
+  text-align: center;
+}
+
+.languageSelector {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,27 @@
+.notification {
+  position: absolute;
+  right: 17%;
+  top: 5%;
+  width: max-content;
+  background: #b681fa;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  z-index: 10000;
+  transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.show {
+  top: 5%;
+  opacity: 1;
+}
+
+.hide {
+  top: 0%;
+  opacity: 0;
+}
+
+.message {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
